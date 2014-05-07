@@ -6,3 +6,6 @@ php:
 
 before_script:
   - composer --prefer-source --dev install
+
+script:
+  - phpunit
